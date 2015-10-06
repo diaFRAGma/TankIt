@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: TankIt 1.0
+## Version: 1.0
+## Notes: Decides which skill the warrior uses.
+## Notes-deDE: Entscheidet welche Fähigkeit vom Tank Krieger genutzt wird.
+## Author: Ambro
+## Dependencies: IsBuffActive
+TankIt.lua

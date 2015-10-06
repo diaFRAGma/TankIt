@@ -1,0 +1,14 @@
+World of Warcraft 1.12.1 Addon für Protection Krieger
+
+Im Spiel muss ein Makro angelegt werden mit folgendem Inhalt:
+/run TankIt()
+Wenn das Makro durch betätigen des Knopfes ausgelöst wird, laufen folgende Entscheidungen ab:
+1.
+2.
+
+Nützliche Links:
+World of Warcraft 1.12.1 API
+http://vanilla-wow.wikia.com/wiki/World_of_Warcraft_API
+http://www.wowwiki.com/index.php?title=World_of_Warcraft_API&oldid=281620
+Programming in Lua
+http://www.lua.org/pil/contents.html
