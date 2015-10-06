@@ -53,10 +53,16 @@ function TankIt()
 	end
 	
 	-- Demoralisierungsruf
-	if UnitMana("player") >= 10 and UnitName("target") ~= nil and UnitAffectingCombat("player") and not IsBuffActive("Demoralisierungsruf", "target") then
-		CastSpellByName("Demoralisierungsruf")
-		return
-	end
+	--if UnitMana("player") >= 10 and UnitName("target") ~= nil and UnitAffectingCombat("player") and not IsBuffActive("Demoralisierungsruf", "target") then
+		--CastSpellByName("Demoralisierungsruf")
+		--return
+	--end
+	
+	-- Schildblock
+	--if UnitMana("player") >= 10 and not IsBuffActive("Schildblock") then
+		--CastSpellByName("Schildblock")
+		--return
+	--end
 	
 	-- Rüstung zerreißen
 	if UnitMana("player") >= 15 then
@@ -68,8 +74,13 @@ end
 
 function switchToNextTarget()
 	TargetNearestEnemy()
+	local i = 0
 	while IsActionInRange(actionSlotWithRevenge) == 0 do
 		TargetNearestEnemy()
+		i = i + 1
+		if i == 10 then
+			do break end
+		end
 	end
 end
 

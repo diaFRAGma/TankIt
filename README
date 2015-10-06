@@ -3,8 +3,14 @@ World of Warcraft 1.12.1 Addon für Protection Krieger
 Im Spiel muss ein Makro angelegt werden mit folgendem Inhalt:
 /run TankIt()
 Wenn das Makro durch betätigen des Knopfes ausgelöst wird, laufen folgende Entscheidungen ab:
-1.
-2.
+1. Wut <= 5 und kein CD dann Blutrausch
+2. Wut >= 10 und Buff nicht aktiv dann Schlachtruf [AKTUELL AUSKOMMENTIERT]
+3. Wut >= 20 und Skill nutzbar und kein CD dann Schildschlag
+4. Wut >= 5 und Skill nutzbar und kein CD dann Rache
+5. Wut >= 50 dann Heldenhafter Stoß
+6. Wut >= 10 und Mob im Target und infight und Debuff nicht aktiv auf Target dann Demoralisierungsruf [AKTUELL AUSKOMMENTIERT]
+7. Wut >= 10 und Buff nicht aktiv dann Schildblock [AKTUELL AUSKOMMENTIERT]
+8. Wut >= 15 dann Rüstung zerreißen
 
 Nützliche Links:
 World of Warcraft 1.12.1 API
