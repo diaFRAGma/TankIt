@@ -9,7 +9,7 @@ Wenn das Makro durch betätigen des Knopfes ausgelöst wird, laufen folgende Entsc
 4. Wut >= 5 und Skill nutzbar und kein CD dann Rache
 5. Wut >= 50 dann Heldenhafter Stoß
 6. Wut >= 10 und Mob im Target und infight und Debuff nicht aktiv auf Target dann Demoralisierungsruf [AKTUELL AUSKOMMENTIERT]
-7. Wut >= 10 und Buff nicht aktiv dann Schildblock [AKTUELL AUSKOMMENTIERT]
+7. Wut >= 10 und Buff nicht aktiv und kein CD dann Schildblock [AKTUELL AUSKOMMENTIERT]
 8. Wut >= 15 dann Rüstung zerreißen
 
 Nützliche Links:

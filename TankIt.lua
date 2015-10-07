@@ -59,7 +59,7 @@ function TankIt()
 	--end
 	
 	-- Schildblock
-	--if UnitMana("player") >= 10 and not IsBuffActive("Schildblock") then
+	--if UnitMana("player") >= 10 and not IsBuffActive("Schildblock") and getCooldown("Schildblock") == 0 then
 		--CastSpellByName("Schildblock")
 		--return
 	--end
